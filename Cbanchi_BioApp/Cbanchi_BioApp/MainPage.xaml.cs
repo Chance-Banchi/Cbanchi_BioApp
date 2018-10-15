@@ -13,5 +13,20 @@ namespace Cbanchi_BioApp
 		{
 			InitializeComponent();
 		}
-	}
+
+        private void About_Me_Navigation_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new AboutMe());
+        }
+
+        private void Skills_Navigation_Clicked(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Contact_Navigation_Clicked(object sender, EventArgs e)
+        {
+
+        }
+    }
 }
