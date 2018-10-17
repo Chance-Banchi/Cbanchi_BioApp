@@ -4,7 +4,7 @@
              xmlns:local="clr-namespace:Cbanchi_BioApp"
              x:Class="Cbanchi_BioApp.MainPage">
 
- <StackLayout>
+    <StackLayout>
         <Label BackgroundColor= "White"
                HeightRequest="100"
             Margin="70,30,70,30"
@@ -30,7 +30,7 @@
                 x:Name="Skills_Navigation"
                 Clicked="Skills_Navigation_Clicked"/>
         <BoxView HeightRequest="1"
-                     BackgroundColor="White"/>
+                     BackgroundColor="NavajoWhite"/>
                 
         <Button BackgroundColor="White"
                Margin=" 200,30,20,30"
@@ -40,8 +40,9 @@
                 x:Name="Contact_Navigation"
                 Clicked="Contact_Navigation_Clicked"/>
         <BoxView HeightRequest="1"
-                     BackgroundColor="White"/>
-            
-    </StackLayout>
+                     BackgroundColor="NavajoWhite"/>
+        <!--<Image Source="https://goo.gl/images/gB2aTq"/>-->
 
+    </StackLayout>
+       
 </ContentPage>

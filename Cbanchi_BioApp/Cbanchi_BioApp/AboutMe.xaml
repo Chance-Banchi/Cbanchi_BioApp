@@ -4,9 +4,14 @@
              x:Class="Cbanchi_BioApp.AboutMe">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Label Text="About Me Page!"
+                 BackgroundColor= "White"
+               HeightRequest="100"
+            Margin="70,30,70,30"
+        HorizontalTextAlignment="Center"
+             VerticalTextAlignment="Center"
+               TextColor="Black"
+               FontSize="20"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
