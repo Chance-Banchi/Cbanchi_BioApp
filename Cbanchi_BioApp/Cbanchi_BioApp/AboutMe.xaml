@@ -1,17 +1,24 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Cbanchi_BioApp.AboutMe">
+             x:Class="Cbanchi_BioApp.AboutMe"
+         Title="About Me!">
+
     <ContentPage.Content>
+        <!--<Image Source="https://goo.gl/images/gB2aTq"/>-->
         <StackLayout>
-            <Label Text="About Me Page!"
-                 BackgroundColor= "White"
+            <Button 
                HeightRequest="100"
             Margin="70,30,70,30"
-        HorizontalTextAlignment="Center"
-             VerticalTextAlignment="Center"
-               TextColor="Black"
-               FontSize="20"/>
+             Text="About Me"
+               TextColor="White"
+               FontSize="20"
+                 BorderColor="White"
+             BorderWidth="2"/>
+            <!--<Label Text=" My name is Chancellor Banchi, but I usually go by Chance. I'm 21 years old and I'm a full time student at Pittsburg State University pursuing a C.I.S. degree. I have 4 step siblings and I'm the middle child. I'm a Member of Lambda Chi Alpha and sit on the Interfraterny Council. "-->
+                      
+
+
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

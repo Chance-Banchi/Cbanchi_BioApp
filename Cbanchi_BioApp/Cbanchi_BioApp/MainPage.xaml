@@ -5,42 +5,54 @@
              x:Class="Cbanchi_BioApp.MainPage">
 
     <StackLayout>
-        <Label BackgroundColor= "White"
+        <Button 
                HeightRequest="100"
             Margin="70,30,70,30"
              Text="Chancellor Banchi"
-               TextColor="Black"
+               TextColor="White"
                FontSize="20"
-             HorizontalTextAlignment="Center"
-             VerticalTextAlignment="Center"/>
-        <Button BackgroundColor="White"
+                 BorderColor="White"
+             BorderWidth="2"
+                
+             />
+        <Button 
                Margin=" 20,130,200,30"
                Text="About Me"
-               TextColor="Black"
+               TextColor="White"
                FontSize="15"
+                BorderColor="White"
+            BorderWidth="2"
                 x:Name="About_Me_Navigation"
                 Clicked="About_Me_Navigation_Clicked"/>
         <BoxView HeightRequest="1"
-                     BackgroundColor="NavajoWhite"/>
-        <Button BackgroundColor="White"
+                     BackgroundColor="NavajoWhite"
+                 Margin="20,0,200,0"/>
+        <Button 
                Margin=" 100,30,100,30"
                Text="Skills"
-               TextColor="Black"
+               TextColor="White"
                FontSize="15"
+                BorderColor="White"
+             BorderWidth="2"
                 x:Name="Skills_Navigation"
                 Clicked="Skills_Navigation_Clicked"/>
+        
         <BoxView HeightRequest="1"
-                     BackgroundColor="NavajoWhite"/>
+                     BackgroundColor="NavajoWhite"
+                 Margin="100,0,100,0"/>
                 
-        <Button BackgroundColor="White"
+        <Button 
                Margin=" 200,30,20,30"
                Text="Contact Me"
-               TextColor="Black"
+               TextColor="White"
                FontSize="15"
+                BorderColor="White"
+            BorderWidth="2"
                 x:Name="Contact_Navigation"
                 Clicked="Contact_Navigation_Clicked"/>
         <BoxView HeightRequest="1"
-                     BackgroundColor="NavajoWhite"/>
+                     BackgroundColor="NavajoWhite"
+                 Margin="200,0,20,0"/>
         <!--<Image Source="https://goo.gl/images/gB2aTq"/>-->
 
     </StackLayout>

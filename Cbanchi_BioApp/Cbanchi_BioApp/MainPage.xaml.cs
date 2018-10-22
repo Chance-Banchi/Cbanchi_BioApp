@@ -21,12 +21,12 @@ namespace Cbanchi_BioApp
 
         private void Skills_Navigation_Clicked(object sender, EventArgs e)
         {
-
+            Navigation.PushAsync(new Skills());
         }
 
         private void Contact_Navigation_Clicked(object sender, EventArgs e)
         {
-
+            Navigation.PushAsync(new ContactMe());
         }
     }
 }
