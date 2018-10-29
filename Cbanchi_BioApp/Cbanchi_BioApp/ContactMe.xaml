@@ -3,10 +3,39 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Cbanchi_BioApp.ContactMe">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
+        <ScrollView>
+            <StackLayout
+            Padding="20"
+            Spacing="20">
+
+            <Label Text=" Conatact Me "
+       FontSize ="30"
+       FontAttributes=" Bold"
+                   HorizontalTextAlignment="Center"/>
+
+
+
+            <BoxView BackgroundColor=" Blue"
+                     HeightRequest="150"
+                     WidthRequest ="50"/>
+
+            <Entry x:Name ="nameEntry"
+                   Placeholder ="name"/>
+
+                <Entry x:Name ="emailEntry"
+                       Placeholder ="email"/>
+
+            <Label Text="Enter Your message here."/>
+
+                <Editor x:Name ="messageEditor"
+                HeightRequest=" 100"/>
+
+            <Button Text=" Submit"
+                    BackgroundColor=" Green"
+                    TextColor="White"
+                    Clicked="Button_Clicked"/>
+
+            </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>
