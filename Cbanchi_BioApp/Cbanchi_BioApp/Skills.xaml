@@ -3,10 +3,12 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Cbanchi_BioApp.Skills">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+        <StackLayout
+            Padding=" 20"
+            Spacing=" 20">
+            <Label Text="My Skills Page"/>
+
+            <ListView x:Name="skillListView"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
